@@ -16,3 +16,19 @@ lista.sort();
 console.log(lista); 
 
 
+var i = 0;
+while (i < lista.length){
+    var elementoDaAnalizzare = lista[i];
+
+    for (var j = 0; j < datiFiltrati.length; j++){
+
+        var elementoGiaFiltrato = datiFiltrati[j];
+        var x = i+1;
+
+        if (elementoDaAnalizzare === elementoGiaFiltrato){
+            console.log(cognome + ' si trova nella posizione ' + x);
+        }
+    }
+    i++
+}
+
