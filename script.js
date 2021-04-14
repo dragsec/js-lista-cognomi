@@ -7,3 +7,12 @@
 
 var lista = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 var cognome = prompt("Quale è il tuo cognome?");
+lista.push(cognome);
+
+var datiFiltrati = [];
+datiFiltrati.push(cognome);
+
+lista.sort();
+console.log(lista); 
+
+
